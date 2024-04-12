@@ -1,63 +1,40 @@
 {
     "projects": [
-      { "id": 1, "name": "Project 1", "description": "Description of Project 1" },
-      { "id": 2, "name": "Project 2", "description": "Description of Project 2" }
-    ]
-  }
-  {
+        { "id": 1, "name": "Project 1", "description": "Description of Project 1" },
+        { "id": 2, "name": "Project 2", "description": "Description of Project 2" }
+    ],
     "employees": [
-      {
-        "id": 1,
-        "name": "John Doe",
-        "email": "john@example.com",
-        "phone": "+1234567890",
-        "role": "Project Manager",
-        "years_of_experience": 5
-      },
-      {
-        "id": 2,
-        "name": "Jane Smith",
-        "email": "jane@example.com",
-        "phone": "+9876543210",
-        "role": "Engineer",
-        "years_of_experience": 3
-      },
-      {
-        "id": 3,
-        "name": "Mike Johnson",
-        "email": "mike@example.com",
-        "phone": "+1122334455",
-        "role": "Foreman",
-        "years_of_experience": 7
-      },
-      {
-        "id": 4,
-        "name": "Emily Brown",
-        "email": "emily@example.com",
-        "phone": "+5544332211",
-        "role": "Manual Worker",
-        "years_of_experience": 2
-      }
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john@example.com",
+            "phone": "+1234567890",
+            "role": "Project Manager",
+            "years_of_experience": 5
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "email": "jane@example.com",
+            "phone": "+9876543210",
+            "role": "Engineer",
+            "years_of_experience": 3
+        },
+        {
+            "id": 3,
+            "name": "Mike Johnson",
+            "email": "mike@example.com",
+            "phone": "+1122334455",
+            "role": "Foreman",
+            "years_of_experience": 7
+        },
+        {
+            "id": 4,
+            "name": "Emily Brown",
+            "email": "emily@example.com",
+            "phone": "+5544332211",
+            "role": "Manual Worker",
+            "years_of_experience": 2
+        }
     ]
-  }
-  [
-    {
-        "name": "John Doe",
-        "email": "john@example.com",
-        "phone": "123-456-7890",
-        "role": "project_manager"
-    },
-    {
-        "name": "Jane Smith",
-        "email": "jane@example.com",
-        "phone": "987-654-3210",
-        "role": "engineer"
-    },
-    {
-        "name": "Bob Johnson",
-        "email": "bob@example.com",
-        "phone": "555-123-4567",
-        "role": "Foreman"
-    }
-]
-  
+}
