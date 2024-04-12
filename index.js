@@ -54,4 +54,27 @@ document.addEventListener("DOMContentLoaded", function() {
         };
 
         fetch(url, { headers })
-            .then(response => response.json()))
+            .then(response => response.json())
+            function displayUsers(users) {
+                userList.innerHTML = ''; // Clear previous search results
+                
+                users.forEach(user => {
+                    const userItem = document.createElement('li');
+                    const userLink = document.createElement('a');
+                    userLink.href = user.html_url;
+                    userLink.target = '_blank';
+                    userLink.textContent = user.login;
+                    
+                    const userAvatar = document.createElement('img');
+                    userAvatar.src = user.avatar_url;
+                    userAvatar.alt = `${user.login}'s avatar`;
+                    userAvatar.width = 50;
+                    userAvatar.height = 50;
+                    
+                    userItem.appendChild(userAvatar);
+                    userItem.appendChild(userLink);
+                    
+                    userList.appendChild(userItem);
+                });
+            }
+        });
