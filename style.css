@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    text-align: end to e; /* Center-align all content */
+  }
+  
+  header, section, footer {
+    margin: 0 auto; /* Center-align individual sections */
+    max-width: 800px; /* Limit maximum width */
+    text-align: left; /* Reset text alignment for content within sections */
+  }
+  
+  header {
+    padding: 20px;
+    background-color: gray;
+    color: #fff;
+  }
+  
+  footer {
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }

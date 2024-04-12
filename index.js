@@ -22,3 +22,16 @@ document.addEventListener('DOMContentLoaded', function() {
       form.reset();
     });
 });
+document.addEventListener("DOMContentLoaded", function() {
+    
+    var firstSubmitButton = document.querySelector('button[type="submit"]');
+    
+   
+    firstSubmitButton.addEventListener("click", function(event) {
+     
+      event.preventDefault();
+      
+      // Show an alert when the button is clicked
+      alert("Form submitted successfully!");
+    });
+  });
