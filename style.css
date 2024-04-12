@@ -56,3 +56,7 @@ body {
   .services ul li {
     margin-bottom: 5px;
   }
+  img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
