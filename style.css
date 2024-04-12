@@ -102,4 +102,14 @@ button {
     background-position-y: 50%;
     padding-right: 30px;
   }
+  #contact {
+    background-color: #f9f9f9; /* Background color for the contact section */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  #contact h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
   
