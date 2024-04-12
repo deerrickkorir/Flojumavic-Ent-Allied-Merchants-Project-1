@@ -54,4 +54,4 @@ document.addEventListener("DOMContentLoaded", function() {
         };
 
         fetch(url, { headers })
-            .then(response => response.json())
+            .then(response => response.json()))
