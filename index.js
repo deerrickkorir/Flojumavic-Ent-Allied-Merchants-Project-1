@@ -35,3 +35,23 @@ document.addEventListener("DOMContentLoaded", function() {
       alert("Form submitted successfully!");
     });
   });
+  document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('github-form');
+    const userList = document.getElementById('user-list');
+    
+    form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent default form submission
+        
+        const searchQuery = document.getElementById('search').value.trim();
+        if (searchQuery === '') {
+            alert('Please enter a search query');
+            return;
+        }
+        
+        const url = `https://api.github.com/search/users?q=${searchQuery}`;
+        const headers = {
+            'Accept': 'application/vnd.github.v3+json'
+        };
+
+        fetch(url, { headers })
+            .then(response => response.json())
