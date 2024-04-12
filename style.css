@@ -112,4 +112,13 @@ button {
     color: #333;
     margin-bottom: 20px;
   }
+  #contact p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  
   
