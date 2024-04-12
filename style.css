@@ -43,4 +43,8 @@ body {
   section {
     margin-bottom: 40px;
   }
-  
+  .services h2 {
+    background-color: rgba(255, 0, 0, 0.9);
+    padding: 10px;
+    color: #fff; /* Ensures text is visible on the background */
+  }
