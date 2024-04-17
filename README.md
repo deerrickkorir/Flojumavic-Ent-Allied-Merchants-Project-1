@@ -54,6 +54,9 @@ Git
 ## Support and Contact Details
 [GitHub Profile]https://github.com/deerrickkorir
 
+## link to live site on github pages
+this is the live site  [here](https://deerrickkorir.github.io/Flojumavic-Ent-Allied-Merchants-Project-1/)
+
 ### License
 The content of this site is licensed under the MIT license.  
 Copyright (c) 2024.
